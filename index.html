@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>International HOTEL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header" id="header">
+        <div class="head-top">
+            <div class="site-name">
+                <span>HOTEL-INTERNATIONAL</span>
+            </div>
+            <div class="site-nav">
+                <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+
+        <div class="head-bottom flex">
+            <h2>Welcome to the HOTEL-INTERNATIONAL most private and secluded resort</h2>
+            <p>In light of the Covid-19 situation, we have implemented stringent precautionary operational measures at
+                all our hotels to safeguard the health and well-being of our guests and colleagues. To assist guests
+                whose travel may be impacted, we are waiving cancellation fees for all individual stays booked directly
+                through September 30, 2021. Exceptions may apply to specific offers and packages, please refer to the
+                terms and conditions provided on your booking confirmation.</p>
+            <button type="button" class="head-btn">GET STARTED</button>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- side navbar -->
+    <div class="sidenav" id="sidenav">
+        <span class="cancel-btn" id="cancel-btn">
+            <i class="fas fa-times"></i>
+        </span>
+
+        <ul class="navbar">
+            <li><a href="#header">home</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#rooms">rooms</a></li>
+            <li><a href="#customers">customers</a></li>
+        </ul>
+        <button class="btn sign-up">sign up</button>
+        <button class="btn log-in">log in</button>
+    </div>
+    <!-- end of side navbar -->
+
+    <!-- fullscreen modal -->
+    <div id="modal"></div>
+    <!-- end of fullscreen modal -->
+
+    <!-- body content  -->
+    <section class="services sec-width" id="services">
+        <div class="title">
+            <h2>services</h2>
+        </div>
+        <div class="services-container">
+            <!-- single service -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-utensils"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Food Service/ Food Runner</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia
+                        accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur
+                        doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis
+                        rem autem ex, reiciendis corporis suscipit!</p>
+                    <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-swimming-pool"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Refreshment</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia
+                        accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur
+                        doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis
+                        rem autem ex, reiciendis corporis suscipit!</p>
+                    <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-broom"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Housekeeping</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia
+                        accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur
+                        doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis
+                        rem autem ex, reiciendis corporis suscipit!</p>
+                    <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+            <!-- single service -->
+            <article class="service">
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-door-closed"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Room Security</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis tempore officia
+                        accusamus asperiores. Illum maxime eligendi necessitatibus laudantium iste nisi pariatur
+                        doloremque ut illo similique voluptatum enim distinctio perferendis, ad ipsam aspernatur omnis
+                        rem autem ex, reiciendis corporis suscipit!</p>
+                    <button type="button" class="btn">Know More</button>
+                </div>
+            </article>
+            <!-- end of single service -->
+        </div>
+    </section>
+
+    <div class="book">
+        <form class="book-form">
+            <div class="form-item">
+                <label for="checkin-date">Check In Date: </label>
+                <input type="date" id="chekin-date">
+            </div>
+            <div class="form-item">
+                <label for="checkout-date">Check Out Date: </label>
+                <input type="date" id="chekout-date">
+            </div>
+            <div class="form-item">
+                <label for="adult">Adults: </label>
+                <input type="number" min="1" value="1" id="adult">
+            </div>
+            <div class="form-item">
+                <label for="children">Children: </label>
+                <input type="number" min="1" value="1" id="children">
+            </div>
+            <div class="form-item">
+                <label for="rooms">Rooms: </label>
+                <input type="number" min="1" value="1" id="rooms">
+            </div>
+            <div class="form-item">
+                <input type="submit" class="btn" value="Book Now">
+            </div>
+        </form>
+    </div>
+
+    <section class="rooms sec-width" id="rooms">
+        <div class="title">
+            <h2>rooms</h2>
+        </div>
+        <div class="rooms-container">
+            <!-- single room -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="images/4.jpg" alt="room image">
+                </div>
+                <div class="room-text">
+                    <h3>Luxury Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            High-quality furnishings with opulent
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            expensive touches
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            a quiet room with fresh air, original art on the walls.
+                        </li>
+                    </ul>
+                    <p>All our guestrooms are elegantly furnished with handmade furniture include luxury en-suite
+                        facilities with complimentary amenities pack, flat screen LCD TV, tea/coffee making facilities,
+                        fan, hairdryer and the finest pure white linen and towels.</p>
+                    <p>Our king size four poster provides views over landscaped gardens. It has a seating area, ample
+                        storage, digital safe, minibar and luxurious duck down bedding.</p>
+                    <p class="rate">
+                        <span>$120.00 /</span> Per Day
+                    </p>
+                    <button type="button" class="btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="images/3.jpg" alt="room image">
+                </div>
+                <div class="room-text">
+                    <h3>Luxury Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            24 hour room service
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Bathrobe, slippers
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Daily newspaper on request
+                        </li>
+                    </ul>
+                    <p>Enjoy our elegant 40 m² guest rooms, designed in warm beige tones and tailored to the needs of
+                        private and business travelers alike. All rooms have a large marble bathroom, a double bed, air
+                        conditioning, an additional work area with free internet access and a walk-in closet. Our
+                        superior rooms impress with a wonderful view of the city and the adjacent park.</p>
+                    <p>Enjoy our elegant 40 m² guest rooms, designed in warm beige tones and tailored to the needs of
+                        private and business travelers alike. All rooms have a large marble bathroom, a double bed, air
+                        conditioning, an additional work area with free internet access and a walk-in closet. Our
+                        superior rooms impress with a wonderful view of the city and the adjacent park.</p>
+                    <p class="rate">
+                        <span>$120.00 /</span> Per Day
+                    </p>
+                    <button type="button" class="btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+            <!-- single room -->
+            <article class="room">
+                <div class="room-image">
+                    <img src="images/2.jpg" alt="room image">
+                </div>
+                <div class="room-text">
+                    <h3>Luxury Rooms</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Coffee and tea
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            1 bottle of mineral water
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Fruit basket
+                        </li>
+                    </ul>
+                    <p>Elegant, inviting and with a wonderful view over the city and the beautiful park – this is how my
+                        hotelier imagined his Sun-Room and I have to admit that I am proud of what he made of me.</p>
+                    <p>The view from my hotel room window alone is worth the trip, and then there are all the little
+                        extras that make a stay at the Park Hotel so special. Regardless of whether you are on a
+                        business or private trip, I want you to feel completely at ease with me. And I can assure you,
+                        my designers went to great lengths to live up to this claim.</p>
+                    <p class="rate">
+                        <span>$120.00 /</span> Per Night
+                    </p>
+                    <button type="button" class="btn">book now</button>
+                </div>
+            </article>
+            <!-- end of single room -->
+        </div>
+    </section>
+
+
+    <section class="customers" id="customers">
+        <div class="sec-width">
+            <div class="title">
+                <h2>customers</h2>
+            </div>
+            <div class="customers-container">
+                <!-- single customer -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                    <h3>We Loved it</h3>
+                    <p> "Nice
+                        We stayed for 3 nights there,great location, the room was spacious, the people working at the
+                        reception very kind and helpful, breakfast was very good!! (But no croisant!!)
+                        Close to center,metro and railway station, 2 shopping centers (about 6-7 min
+                        walking),supermarket.
+                        I recomend it!!" </p>
+                    <img src="images/5.jpg" alt="customer image">
+                    <span>Vinayak Chavan, India</span>
+                </div>
+                <!-- end of single customer -->
+                <!-- single customer -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                    <h3>Comfortable Living</h3>
+                    <p>"Central, clean, quiet, friendly
+
+                        Second stay at hotel Arthur, and same great experience. Lovely, friendly, helpful staff.
+                        Spacious room. Working aircon and blackout curtains. Good breakfast and a location that's really
+                        hard to beat in Helsinki! The only niggle I have is that my room was at the end of a looooooong
+                        corridor which meant a long walk to go back to get anything I forgot on the way out daily." </p>
+                    <img src="images/6.jpg" alt="customer image">
+                    <span>Apeksha Chavan, India</span>
+                </div>
+                <!-- end of single customer -->
+                <!-- single customer -->
+                <div class="customer">
+                    <div class="rating">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                    </div>
+                    <h3>Nice Place</h3>
+                    <p> "Affordable price, excellent location!
+                        Quite smooth reservation process, very friendly service at the desk, clean & large room for two,
+                        very quiet over the rooftops of Helsinki - a very pleasant stay at the heart of Helsinki, in the
+                        middle of practically everything!" </p>
+                    <img src="images/7.jpg" alt="customer image">
+                    <span>Swapnil Shende, India</span>
+                </div>
+                <!-- end of single customer -->
+            </div>
+        </div>
+    </section>
+    <!-- end of body content -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>
+                        CTS 8552 H NO 3-13-18 RAGHAV PRIDE NEAR RAJABAJAR AURANGABAD 431001
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        9834057856
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span>
+                        swapnilshende1998@gmail.com
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
