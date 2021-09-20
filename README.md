@@ -4,15 +4,14 @@
 Online Hotel Booking & Management System
 
 The main objective of the entire activity is to create a website for hotel information.
-
-• Display different rooms available
-• Book hotel room
-• Show hotel location
-• Provide information on hotel services
-• Finally compute the bill etc
-• Packages available
-• Email facility
-• Feedbacks 
+#### • Display different rooms available
+#### • Book hotel room
+#### • Show hotel location
+#### • Provide information on hotel services
+#### • Finally compute the bill etc
+#### • Packages available
+#### • Email facility
+#### • Feedbacks 
 
 ## METHODOLOGY
 ### a. HTML :
